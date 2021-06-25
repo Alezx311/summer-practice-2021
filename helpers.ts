@@ -1,6 +1,6 @@
 // import { chalk } from 'chalk'
 const chalk = require('chalk')
-import { CHALK_COLORS, TruthyData, TruthyValue } from './constants'
+import { CHALK_COLORS, TruthyData, TruthyValue } from './src/constants'
 import { ErrorInvalidValue } from './errors'
 
 //& For Logging

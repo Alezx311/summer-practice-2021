@@ -1,17 +1,27 @@
 {
-  "name": "bot_audio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "bot.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "alezx311",
-  "license": "ISC",
-  "dependencies": {
-    "chalk": "^4.1.1",
-    "dotenv": "^10.0.0",
-    "nodemon": "^2.0.7",
-    "telegraf": "^4.3.0"
-  }
+	"name": "bot_audio",
+	"version": "1.0.0",
+	"description": "",
+	"main": "bot.js",
+	"scripts": {
+		"run:clean": "tsc bot_clean.ts",
+		"run": "tsc bot.ts",
+		"dev:clean": "nodemon bot_clean.ts",
+		"dev": "nodemon bot.ts",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "alezx311",
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com:Alezx311/summer-practice-2021.git"
+	},
+	"dependencies": {
+		"chalk": "^4.1.1",
+		"dotenv": "^10.0.0",
+		"nodemon": "^2.0.7",
+		"telegraf": "^4.3.0",
+		"telegraf-ts": "^3.89.1",
+		"ts-telegraf-decorators": "^0.3.5"
+	}
 }
